@@ -1,0 +1,58 @@
+.navbar{
+    top: 0%;
+    left: 0%;
+    margin: -8px;
+    padding: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    display: inline;
+    text-align: center;
+}
+
+.navbar ul li a{
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    color: whitesmoke;
+    font-size: 20px;
+    display: block;
+    border-style: solid;
+    border-color: rgb(255,255,255);
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    text-decoration: none;
+}
+.navbar ul .head{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(247, 83, 34);;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding:20px;
+    float: left;
+    letter-spacing: 2px;
+}
+.navbar ul .head:hover{
+    text-shadow: 1px 1px 0 rgb(155, 224, 241);
+}
+
+span{
+    color:white;
+}

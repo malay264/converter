@@ -1,0 +1,25 @@
+.data{
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+input{
+    width: 150px;
+    height: 20px;
+}
+
+select{
+    width: 150px;
+    height: 25px;
+}
+
+input:focus,select:focus{
+    color: antiquewhite;
+    background-color: black;
+}
+
+input:blur,select:blur{
+    color: black;
+    background-color: antiquewhite;
+}

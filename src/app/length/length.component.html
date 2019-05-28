@@ -1,0 +1,36 @@
+
+<div class="data">
+  <form>
+    <label> SELECT INPUT UNIT: <select id="inptype">
+                                  <option value="foot">FEETS</option>
+                                  <option value="inch">INCHES</option>
+                                  <option value="km">KM</option>
+                                  <option value="m">M</option>
+                                  <option value="cm">CM</option>
+                                  <option value="mm">MM</option>
+                                  <option value="mile">MILES</option>
+                              </select>
+     </label><br/><br/><br/>
+
+     <label>
+       ENTER LENGTH:  <input type="number" id="inplen">
+     </label><br/><br/><br/>
+
+     <label>
+       SELECT REQUIRED OUTPUT UNIT: 
+       <select id="outtype">
+          <option value="foot">FEETS</option>
+          <option value="inch">INCHES</option>
+          <option value="km">KM</option>
+          <option value="m">M</option>
+          <option value="cm">CM</option>
+          <option value="mm">MM</option>
+          <option value="mile">MILES</option>
+      </select> 
+     </label><br><br>
+
+     <button (click)="convert()">
+      Click!
+    </button>
+  </form>
+</div>

@@ -1,0 +1,31 @@
+<div class="data">
+  <form>
+      <label> SELECT INPUT UNIT: 
+        <select id="inptype">
+          <option value="kg">Kilogram</option>
+          <option value="g">Gram</option>
+          <option value="p">Pound</option>
+          <option value="o">Ounce</option>
+        </select>
+      </label><br/><br/><br/>
+
+      <label>
+          ENTER WEIGHT:  <input type="number" id="inpval">
+        </label><br/><br/><br/>
+
+        <label> SELECT REQUIRED OUTPUT UNIT:
+          <select id="outtype">
+            <option value="kg">Kilogram</option>
+            <option value="g">Gram</option>
+            <option value="p">Pound</option>
+            <option value="o">Ounce</option>
+          </select>
+        </label><br/><br/>
+        
+        <button (click)="convert()">
+            Click!
+        </button>
+        <br/><br/>  
+    </form>
+</div>
+
